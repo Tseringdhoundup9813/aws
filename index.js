@@ -11,6 +11,9 @@ app.get('/',(req,res)=>{
 app.get("/api",(req,res)=>{
     res.send("learning how to deploy node js to aws ")
 })
+app.get("/api/user",(req,res)=>{
+    res.send("user name is tsering")
+})
 app.listen(port,()=>{
     console.log(`server is listening on ${port}`)
 })
